@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CoreData', 'SystemConfiguration'
 
-  s.libraries = "libz", "libsqlite3"
+  s.libraries = "z", "sqlite3"
 
 
 end
